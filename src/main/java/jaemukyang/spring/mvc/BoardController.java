@@ -18,7 +18,7 @@ public class BoardController {
 	
 	@RequestMapping("/board/write")
 	public String write() {
-		return "join/write.tiles";
+		return "board/write.tiles";
 	}
 	
 }
